@@ -94,21 +94,34 @@
 .herotext {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex: 1;
 }
 
 .heromaintext {
+    display: flex;
+    flex: 3;
     font-size: 48px;
     color: #f9faf8;
 }
 
 .herosubtext {
     display: flex;
-    flex: 1;
+    flex: 2;
     align-items: center;
     justify-content: flex-start;
     color: #e5e7eb;
     font-size: 18px; 
+}
+
+.signup {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
 }
 
 .heroimage {
@@ -119,6 +132,7 @@
     align-items: center;
     justify-content: left;
     background-color: grey;
+    height: 300px;
 }
 
 .heroimage iframe {
@@ -129,21 +143,19 @@
     height: 100%;
 }
 
-.signup {
-    background-color: #3882f6;
-    width: 100px;
-}
-
 .content {
     background-color: white;
     color: black;
     text-align: center;
     font-weight: bold;
     font-size: 32px;
+}
+
+.partoneheader {
     padding: 50px;
 }
 
-.boxes {
+.partoneboxes {
     display: flex;
     flex: 1;
     justify-content: space-around;
