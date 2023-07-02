@@ -137,4 +137,13 @@
 .content {
     background-color: white;
     color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.boxes {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
 }
