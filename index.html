@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <div class="header">
         <div class="headerlogo">
-            <!--<img src=""> -->
-            <h5>Header Logo</h5>
+            <img class="logo" height="100px" src="./images/logo.png">
+            <!-- <h5>Header Logo</h5> -->
         </div>
 
-        <nav class="headerlinks">
-            <div>header link one</div>
-            <div>header link two</div>
-            <div>header link three</div>
+        <nav class="navbar">
+            <div><a href="#">Home</a></div>
+            <div><a href="#">Link 2</a></div>
+            <div class="dropdown">
+                <button class="dropbtn">Link 3
+                    <i class="fa fa-caret-doen"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">link 3.1</a>
+                    <a href="#">link 3.2</a>
+                    <a href="#">link 3.3</a>
+                </div>
+            </div>
         </nav>
     </div>
     <div class="hero">
