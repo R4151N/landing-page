@@ -1,6 +1,6 @@
 * {
-    border: 2px solid red;
-    margin: 0;
+    /* border: 2px solid red; */
+    margin: 0px;
 }
 
 .header {
@@ -215,4 +215,6 @@
     background-color: transparent;
     font-weight: bold;
     color: #f9faf8;
+    height: 40px;
+    width: 100px;
 }
