@@ -185,8 +185,34 @@
     display: flex;
     flex: 1;
     justify-content: center;
+    font-weight: normal;
+    color: #f9faf8;
 }
 
-.endingtext {
+.endingclm1 {
+    display: flex;
+    flex-direction: column;
     background-color: #3882f6;
+    text-align: left;
+}
+
+.calltoactionmain {
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.calltoactionsub {
+
+}
+
+.endingclm2 {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+}
+
+.endingbtn {
+    background-color: transparent;
+    font-weight: bold;
+    color: #f9faf8;
 }
