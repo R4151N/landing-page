@@ -179,3 +179,14 @@
 .quote_author {
     text-align: right;
 }
+
+.ending {
+    padding: 50px 400px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.endingtext {
+    background-color: #3882f6;
+}
