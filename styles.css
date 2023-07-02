@@ -162,4 +162,20 @@
     justify-content: space-around;
     font-size: 18px; 
     font-weight: normal;
+    padding-bottom: 50px;
+}
+
+.parttwo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 50px 400px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.quote_author {
+    text-align: right;
 }
