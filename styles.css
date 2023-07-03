@@ -104,6 +104,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 10%;
 }
 
 .heromaintext {
@@ -140,11 +141,10 @@
     position: relative;
     padding-bottom: 5%;
     display: flex;
-    flex: 1;
+    flex: 0.5;
     align-items: center;
-    justify-content: left;
+    justify-content: space-around;
     background-color: grey;
-    height: 300px;
 }
 
 .heroimage iframe {
